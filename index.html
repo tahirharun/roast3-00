@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Roast.exe | Personality Analyzer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="background-glow"></div>
+
+    <main class="container">
+
+        <div class="badge">⚠ EXPERIMENTAL AI SYSTEM</div>
+
+        <h1>ROAST<span>.EXE</span></h1>
+
+        <p class="subtitle">
+            Advanced Personality Analysis System
+        </p>
+
+        <section class="card">
+
+            <div class="icon">🔮</div>
+
+            <h2>Discover Your Destiny</h2>
+
+            <p class="description">
+                Our highly questionable AI will analyze your personality,
+                intelligence, fashion sense, and general existence.
+            </p>
+
+            <form id="roastForm">
+
+                <label for="name">ENTER YOUR NAME</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your name goes here..."
+                    maxlength="30"
+                    autocomplete="off"
+                    required
+                >
+
+                <button type="submit" id="analyzeBtn">
+                    🔍 ANALYZE MY PERSONALITY
+                </button>
+
+            </form>
+
+            <div id="results" class="results hidden">
+
+                <div class="terminal-header">
+                    <span>● LIVE DIAGNOSTICS</span>
+                    <span class="live">● SIMULATION</span>
+                </div>
+
+                <div id="scanLines" class="scan-lines"></div>
+
+                <div class="score-container">
+                    <p>INTELLIGENCE SCORE</p>
+
+                    <div class="score">
+                        <span id="score">0</span>
+                        <span class="out-of">/100</span>
+                    </div>
+
+                    <div class="progress-track">
+                        <div id="scoreBar" class="progress-bar"></div>
+                    </div>
+                </div>
+
+                <div id="finalRoast" class="final-roast"></div>
+
+                <button id="againBtn" class="again-btn">
+                    🔄 ROAST ME AGAIN
+                </button>
+
+            </div>
+
+        </section>
+
+        <footer>
+            MADE WITH QUESTIONABLE INTELLIGENCE 💀
+            <br>
+            <span>This is a fictional roast generator. No real analysis occurs.</span>
+        </footer>
+
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
